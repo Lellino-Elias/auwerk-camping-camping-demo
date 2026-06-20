@@ -116,7 +116,7 @@ const auwerkCamping: CampsiteConfig = {
         name: "Neues Mobilheim",
         kind: "Erstbezug · ca. 50 m²",
         text: "Generalsaniert und winterfest: Küche, Wohn- und Schlafzimmer, Bad und WC auf rund 50 m² Wohnfläche.",
-        image: { src: `${IMG}/accommodation-1308cb5c31.webp`, alt: "Einbauküche mit Herd im neuen Mobilheim am Auwerk Camping" },
+        image: { src: `${IMG}/accommodation-1308cb5c31.webp`, alt: "Weiße Einbauküche mit Cerankochfeld, Backofen und Dunstabzug im neuen Mobilheim am Auwerk Camping" },
         features: ["50 m² Wohnfläche", "Parzelle ca. 220 m²", "winterfest & gedämmt", "Strom, Wasser, Kanal, Kabel-TV"],
       },
       {
