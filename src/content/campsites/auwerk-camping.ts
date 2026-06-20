@@ -1,205 +1,192 @@
 import type { CampsiteConfig } from "../types";
 
-/**
- * Auwerk Camping — Gölsen 39, 3170 Hainfeld (Niederösterreich).
- * Inhalte zu 100 % aus raw/digest abgeleitet. Bilder provenance-gebunden an diesen Platz.
- * Design: Original-Palette (kein theme), heroVariant "center".
- */
 const IMG = "/campsites/auwerk-camping";
 
 const auwerkCamping: CampsiteConfig = {
   name: "Auwerk Camping",
   shortName: "Auwerk",
   slug: "auwerk-camping",
-  ort: "Hainfeld",
+  ort: "Gölsen bei Hainfeld",
   region: "Niederösterreich",
-  brandKind: "Naturcamping",
-  regionLong: "Wienerwald · Mostviertel · Voralpen · Niederösterreich",
+  brandKind: "Camping & Mobilheime",
+  regionLong: "Gölsental · Mostviertel · Niederösterreich",
 
   heroVariant: "center",
 
-  claim: "Naturidylle an der Gölsen, nur 55 km von Wien",
+  claim: "Dein eigenes Stück Natur an der Gölsen",
   claimEmphasis: "an der Gölsen",
-  emailDetail: "euer eigenes Kleinwasserkraftwerk für Öko-Strom",
+  emailDetail: "euer eigenes Kleinwasserkraftwerk für den Öko-Strom",
   intro:
-    "An den naturbelassenen Ufern der Gölsen, im waldreichsten Bezirk Österreichs und doch nur 55 km von Wien: ein Familienbetrieb auf über 60.000 m² — mit Platz für Zelt, Wohnwagen und dein eigenes Mobilheim.",
+    "Auf über 60.000 m² zwischen der naturbelassenen Gölsen und den bewaldeten Voralpen findest du Ruhe, alten Baumbestand und einen ganzjährig geöffneten Platz, der ganz dir gehört.",
 
   statement: {
-    text: "Über 60.000 m² Ruhe und Erholung an den naturbelassenen Ufern der Gölsen.",
-    emphasis: "Ruhe und Erholung",
+    text: "Bei uns ist Ankommen kein Wochenende lang, sondern das ganze Jahr.",
+    emphasis: "das ganze Jahr",
   },
 
   pillars: [
     {
       title: "Direkt an der Gölsen",
-      text: "Sonnige, ruhige Lage an den naturbelassenen Ufern der Gölsen — mit Teich und altem Baumbestand.",
-      image: { src: `${IMG}/goelsen-fluss.webp`, alt: "Die naturbelassene Gölsen beim Auwerk Camping" },
+      text: "Die naturbelassene Gölsen fließt am Platz vorbei — mit malerischem Teich und altem Baumbestand.",
+      image: { src: `${IMG}/accommodation-88945bc858.webp`, alt: "Die Gölsen beim Auwerk Camping mit Blick auf die Voralpen" },
     },
     {
-      title: "Waldreichster Bezirk",
-      text: "Du atmest die frische Luft von Österreichs waldreichstem Bezirk — und bist doch nur 55 km von Wien.",
-      image: { src: `${IMG}/voralpen-tal.webp`, alt: "Bewaldete Hügellandschaft rund um Hainfeld" },
+      title: "Eingebettet in die Voralpen",
+      text: "Grüne Hügel ringsum: Hainfeld liegt in Österreichs waldreichster Gemeinde, an der Grenze zum Wienerwald.",
+      image: { src: `${IMG}/gallery-26bab1a520.webp`, alt: "Bewaldete Voralpen rund um Hainfeld" },
     },
     {
-      title: "Familiär geführt",
-      text: "Unser Familienbetrieb kümmert sich um alles — vom Öko-Strom bis zum schlüsselfertigen Stellplatz.",
-      image: { src: `${IMG}/eingang.webp`, alt: "Eingang zum Auwerk Camping: Brücke mit blühendem Baum im Frühling" },
+      title: "Ein Familienbetrieb",
+      text: "Familiär geführt — vom ersten Hallo am Tor bis zum Rundum-Service für dein Mobilheim.",
+      image: { src: `${IMG}/gallery-969a35ee73.webp`, alt: "Eingang zum Auwerk Camping Gölsen" },
     },
   ],
 
   usps: [
-    "Über 60.000 m²",
+    "Über 60.000 m² Naturareal",
     "Ganzjährig geöffnet",
-    "Eigener Öko-Strom",
+    "Öko-Strom & Quellwasser",
     "Beheiztes Sanitärgebäude",
-    "Nur 55 km von Wien",
-    "Eigenes Quellwasser",
+    "Parzellen 180–240 m²",
+    "Eigener Kinderspielplatz",
   ],
 
   trust: {
-    heading: "Ein Platz, der das ganze Jahr für dich da ist",
-    headingEmphasis: "das ganze Jahr",
+    heading: "Womit dich der Auwerk überrascht",
+    headingEmphasis: "überrascht",
     intro:
-      "Ganzjährig geöffnet und winterfest, mit beheiztem Sanitärgebäude, Öko-Strom aus dem eigenen Kleinwasserkraftwerk und Trinkwasser aus der eigenen Quelle — bei uns ist alles da, damit du dich um nichts kümmern musst.",
+      "Eigener Öko-Strom aus dem Kleinwasserkraftwerk, feinstes Quellwasser, ein ganzjährig beheiztes Sanitärgebäude und gut beleuchtete Wege bis in die Nacht — hier ist an alles gedacht.",
   },
 
   awards: [],
 
   hero: {
-    aerial: { src: `${IMG}/hero-luft.webp`, alt: "Luftaufnahme: Auwerk Camping an der Gölsen bei Hainfeld" },
+    aerial: { src: `${IMG}/gallery-1d49b7b768.webp`, alt: "Wiesen, alter Baumbestand und die Gölsen beim Auwerk Camping vor den Voralpen" },
   },
 
   breather: {
-    image: { src: `${IMG}/bruecke.webp`, alt: "Ruhige Gölsen im Frühlingsgrün beim Auwerk Camping" },
-    line: "Wo das Wasser still wird und der Tag langsamer.",
+    image: { src: `${IMG}/accommodation-37e1a0b108.webp`, alt: "Luftaufnahme des Auwerk Camping zwischen Gölsen und Wald" },
+    line: "Über 60.000 m² Natur, eingebettet zwischen Fluss und Wald.",
   },
 
   camping: {
-    heading: "Dein Platz an der Gölsen",
+    heading: "Camping am Auwerk",
     intro:
-      "Vom Zelt über den Wohnwagen bis zum eigenen Mobilheim — auf über 60.000 m² findest du großzügige, ruhige Parzellen mitten in der Natur.",
+      "Zwischen Fluss, Teich und altem Baumbestand findest du deinen Platz im Grünen — ruhig, gepflegt und das ganze Jahr geöffnet.",
     features: [
       {
-        title: "Ein Naturparadies an der Gölsen",
-        text: "Sonnige Wiesen, der Fluss und sanfte Hügel ringsum — hier beginnt die Natur direkt vor deinem Vorzelt.",
-        image: { src: `${IMG}/naturparadies.webp`, alt: "Wiesen und Baumallee an der Gölsen beim Auwerk Camping" },
+        title: "Sonnenplatz an der Gölsen",
+        text: "Setz dich ans naturbelassene Flussufer und genieße erholsame Sonnenstunden im Schatten alter Bäume.",
+        image: { src: `${IMG}/accommodation-369d6c3397.webp`, alt: "Sitzplatz am Ufer der Gölsen" },
       },
       {
         title: "Der malerische Teich",
-        text: "Am stillen Teich mit altem Baumbestand sammelst du erholsame Sonnenstunden mit der ganzen Familie.",
-        image: { src: `${IMG}/teich-weit.webp`, alt: "Der stille Campingteich am Auwerk mit Enten und Baumspiegelung" },
+        text: "Mitten am Platz liegt ein stiller Teich mit altem Baumbestand — ein Lieblingsplatz nicht nur für Enten.",
+        image: { src: `${IMG}/gallery-87db673eb8.webp`, alt: "Malerischer Teich am Auwerk Camping" },
       },
       {
         title: "Alter Baumbestand",
-        text: "Schattige Wege unter mächtigen, alten Bäumen laden zu langen Spaziergängen über den Platz ein.",
-        image: { src: `${IMG}/baumbestand.webp`, alt: "Weg unter altem Baumbestand am Auwerk Camping" },
+        text: "Schattige Alleen und gewachsene Bäume prägen das weitläufige Areal und sorgen für angenehme Sommertage.",
+        image: { src: `${IMG}/gallery-9c7fc59708.webp`, alt: "Baumallee mit Wiese am Auwerk Camping" },
       },
       {
-        title: "Lebendiges Flusswasser",
-        text: "Die Gölsen treibt unser eigenes Kleinwasserkraftwerk an — dein Strom hier ist sauberer Öko-Strom.",
-        image: { src: `${IMG}/wehr.webp`, alt: "Wehr an der Gölsen, das das Kleinwasserkraftwerk speist" },
+        title: "Natürliches Flussufer",
+        text: "Das Ufer der Gölsen ist naturbelassen — mit jungem Baumbestand und stiller, grüner Kulisse direkt am Campingplatz.",
+        image: { src: `${IMG}/gallery-81c5f91273.webp`, alt: "Naturbelassenes Ufer der Gölsen mit jungem Baum im Frühling" },
       },
       {
-        title: "Weite Wiesen am Waldrand",
-        text: "Großzügige Parzellen von 180 bis 240 m² mit Strom, Wasser und Kanal — viel Platz für dich und dein Heim.",
-        image: { src: `${IMG}/wiesen.webp`, alt: "Weite Wiesen und Baumreihe am Auwerk Camping" },
+        title: "Ruhige Lage am Wasser",
+        text: "Kein Durchzugsverkehr, nur das Rauschen der Gölsen — abseits der Großstadt und doch nur 55 km von Wien.",
+        image: { src: `${IMG}/gallery-5d6fb44887.webp`, alt: "Ruhiger Flussabschnitt der Gölsen mit grünen Ufern" },
       },
       {
-        title: "Sonnige Plätze am Ufer",
-        text: "Ganzjährig geöffnet und winterfest, mit modernem, beheiztem Sanitärgebäude — ruhig gelegen am Wasser.",
-        image: { src: `${IMG}/ufer.webp`, alt: "Sonniger Uferplatz an der Gölsen beim Auwerk Camping" },
+        title: "Wildromantische Gölsen",
+        text: "Wo der Fluss über Steine rauscht, wird aus einem Spaziergang schnell ein kleines Naturerlebnis.",
+        image: { src: `${IMG}/gallery-9731204579.webp`, alt: "Über Steine rauschende Gölsen im Wald" },
       },
     ],
   },
 
   mobilheime: {
-    heading: "Wohnen am Auwerk",
+    heading: "Wohnen mitten in der Natur",
     intro:
-      "Du musst kein eigenes Mobilheim mitbringen — bei uns kannst du mieten oder kaufen, schlüsselfertig an unsere Netze angeschlossen.",
+      "Ob neues Mobilheim oder das gemütliche Holzhäuschen — bei uns findest du dein eigenes, winterfestes Zuhause im Grünen.",
     items: [
       {
-        name: "Tiny House zum Kauf",
-        kind: "Tiny House",
-        text: "Nagelneues, bisher unbewohntes Tiny House mit 70 m² Wohnfläche, Küche, Bad, Wohn- und Schlafzimmer — schlüsselfertig auf ca. 320 m² Parzelle.",
-        image: { src: `${IMG}/mobilheim-neu.webp`, alt: "Tiny House mit Holzfassade und Terrasse am Auwerk Camping" },
-        features: ["70 m² Wohnfläche", "Schlüsselfertig", "Parzelle ca. 320 m²"],
+        name: "Neues Mobilheim",
+        kind: "Erstbezug · ca. 50 m²",
+        text: "Generalsaniert und winterfest: Küche, Wohn- und Schlafzimmer, Bad und WC auf rund 50 m² Wohnfläche.",
+        image: { src: `${IMG}/accommodation-1308cb5c31.webp`, alt: "Einbauküche mit Herd im neuen Mobilheim am Auwerk Camping" },
+        features: ["50 m² Wohnfläche", "Parzelle ca. 220 m²", "winterfest & gedämmt", "Strom, Wasser, Kanal, Kabel-TV"],
       },
       {
-        name: "Gemütliches Holzhäuschen",
-        kind: "Häuschen zur Miete",
-        text: "Möbliertes Häuschen für ein bis zwei Personen mit Terrasse und Kleinküche — zur Miete ab € 650 im Monat.",
-        image: { src: `${IMG}/holzhaeuschen.webp`, alt: "Holzhäuschen mit Balkon am Auwerk Camping" },
-        features: ["Für 1–2 Personen", "Möbliert & winterfest", "Inkl. Betriebskosten"],
+        name: "Holzhäuschen zur Miete",
+        kind: "für 1–2 Personen",
+        text: "Ein schnuckeliges, winterfestes Holzhaus unter altem Laubbaum — mit kleiner Küche, Bad und Terrasse.",
+        image: { src: `${IMG}/gallery-e1ac6646c9.webp`, alt: "Holzhäuschen zur Miete am Auwerk Camping" },
+        features: ["für 1–2 Personen", "möblierte Kleinküche", "überdachte Terrasse", "€ 650 / Monat inkl. BK"],
       },
     ],
   },
 
   aktivitaeten: {
-    heading: "Rund um Hainfeld",
+    heading: "Rund um die Gölsen",
     intro:
-      "Hainfeld liegt an der Grenze von Wienerwald, Mostviertel und Voralpen — Wandern, Baden und Ausflüge starten direkt vor der Tür.",
+      "Vom Sprung in den Fluss bis zur Radtour durchs Gölsental — vor der Haustür warten Wandern, Radfahren und stille Plätze am Wasser.",
     items: [
       {
-        title: "Wandern & Nordic Walking",
-        text: "Wander- und Spazierwege entlang der Gölsen führen dich direkt vom Platz ins Grüne.",
-        image: { src: `${IMG}/wandern.webp`, alt: "Spazierweg entlang der Gölsen bei Hainfeld" },
+        title: "Im Fluss erfrischen",
+        text: "An warmen Tagen lädt die seichte Gölsen zum Abkühlen zwischen Steinen und Kiesbänken ein.",
+        image: { src: `${IMG}/accommodation-a487a518ed.webp`, alt: "Erfrischung in der seichten Gölsen" },
       },
       {
-        title: "Baden & Flusswandern",
-        text: "Im Sommer locken Flusswanderungen und ein Sprung ins kühle Wasser der naturbelassenen Gölsen.",
-        image: { src: `${IMG}/baden-fluss.webp`, alt: "Menschen in der flachen Gölsen beim Auwerk Camping" },
+        title: "Rad- & Wanderwege",
+        text: "Direkt am Platz starten Wege zum Wandern, Radfahren und Nordic Walking entlang des Flusses.",
+        image: { src: `${IMG}/gallery-9509e7477d.webp`, alt: "Rad- und Wanderweg entlang der Gölsen" },
       },
       {
-        title: "Ausflug zur Araburg",
-        text: "Die Ruine Araburg und der Aussichtsturm Bergfried sind lohnende Ziele für kleine Wanderungen.",
-        image: { src: `${IMG}/araburg.webp`, alt: "Ruine Araburg in den Wäldern bei Hainfeld" },
+        title: "Stille Plätze am Wasser",
+        text: "Abseits gelegene Uferstellen laden zum Innehalten, Lesen oder einfach nur Zuhören ein.",
+        image: { src: `${IMG}/gallery-19a1f4bc87.webp`, alt: "Ruhiger Uferabschnitt der Gölsen im Wald" },
       },
     ],
   },
 
   anreise: {
-    heading: "Dein Weg an die Gölsen",
+    heading: "Dein Weg ins Gölsental",
     modes: [
-      {
-        title: "Mit dem Auto",
-        text: "Von Wien über die A21 und die B18 ins Gölsental — in rund einer Stunde stehst du bei uns in Gölsen 39.",
-      },
-      {
-        title: "Mit der Bahn",
-        text: "Bahnhof Hainfeld, nur wenige Minuten vom Platz entfernt — der Rest ist ein kurzer Spaziergang.",
-      },
+      { title: "Mit dem Auto", text: "Von Wien rund 55 km über die A21 und die B18 Richtung Hainfeld — von dort ist der Platz ausgeschildert." },
+      { title: "Mit der Bahn", text: "Der Bahnhof Hainfeld liegt wenige Minuten entfernt; die Traisentalbahn verbindet dich mit St. Pölten." },
+      { title: "Mit dem Flugzeug", text: "Der Flughafen Wien-Schwechat ist in gut einer Stunde mit dem Auto erreichbar." },
     ],
   },
 
   galerie: {
-    heading: "Auwerk in Bildern",
+    heading: "Eindrücke vom Auwerk",
     headingEmphasis: "Auwerk",
-    intro:
-      "Fluss, Teich und alter Baumbestand — ein paar Eindrücke von unserem Naturparadies im Gölsental.",
+    intro: "Fluss, Teich und Wald rund ums Jahr — ein paar Eindrücke von unserem Naturareal an der Gölsen.",
     tag: "Ganzjährig geöffnet",
-    moreCount: 20,
+    moreCount: 24,
     images: [
-      { src: `${IMG}/wasserkraft.webp`, alt: "Die wilde Gölsen beim Auwerk Camping" },
-      { src: `${IMG}/holzhaus-terrasse.webp`, alt: "Überdachte Terrasse des Holzhäuschens am Auwerk Camping" },
-      { src: `${IMG}/herbstweg.webp`, alt: "Sommerliche Bäume und Holzhütte am Auwerk Camping" },
+      { src: `${IMG}/gallery-7b75fdbd28.webp`, alt: "Teich mit blühendem Baum und Voralpen am Auwerk Camping" },
+      { src: `${IMG}/gallery-67611fa536.webp`, alt: "Allee mit blühenden Kastanien am Auwerk Camping" },
+      { src: `${IMG}/gallery-97c5cb303c.webp`, alt: "Eingang des Holzhäuschens am Auwerk Camping" },
+      { src: `${IMG}/gallery-c52ed325a4.webp`, alt: "Frühling am Teich beim Auwerk Camping — Enten am Ufer und Birkenallee" },
     ],
   },
 
   booking: {
-    heading: "Lust auf deinen Platz an der Gölsen?",
-    headingEmphasis: "an der Gölsen",
+    heading: "Sichere dir deinen Platz im Gölsental",
+    headingEmphasis: "im Gölsental",
     intro:
-      "Sag uns, was du suchst — Stellplatz, Miet-Häuschen oder eigenes Mobilheim. Wir melden uns persönlich mit allen Details.",
+      "Sag uns, woran du Interesse hast — die Familie meldet sich persönlich mit Verfügbarkeit und einem Angebot für dich.",
     pricesArePlaceholder: false,
     priceNote:
-      "Auwerk vermietet und verpachtet vor allem Parzellen und Häuschen — Holzhäuschen ab € 650 / Monat, Mobilheim-Pacht ab € 3.850 / Jahr. Tagespreise für Zelt und Wohnwagen auf Anfrage.",
-    highlight: {
-      title: "Schlüsselfertig",
-      text: "Wir schließen dein Mobilheim oder Häuschen komplett an Wasser, Strom und Kanal an.",
-    },
+      "Keine Übernachtungspreise — der Auwerk vermietet langfristig: Jahrespacht ab € 3.840, Holzhäuschen € 650 / Monat inkl. Betriebskosten. Persönliches Angebot auf Anfrage.",
+    highlight: { title: "Ganzjährig geöffnet", text: "Dein Platz im Grünen ist das ganze Jahr da — auch im Winter beheizt." },
     categories: [
-      { id: "stellplatz", label: "Stellplatz (Zelt / Wohnwagen)" },
-      { id: "mobilheim", label: "Mobilheim-Parzelle" },
+      { id: "stellplatz", label: "Stellplatz / Parzelle" },
+      { id: "mobilheim", label: "Mobilheim mieten" },
       { id: "holzhaus", label: "Holzhäuschen" },
     ],
   },
@@ -215,24 +202,16 @@ const auwerkCamping: CampsiteConfig = {
   languages: ["DE"],
 
   nav: [
-    {
-      label: "Camping",
-      href: "#camping",
-      children: [
-        { label: "Stellplätze", href: "#camping" },
-        { label: "Lage", href: "#camping" },
-      ],
-    },
+    { label: "Der Platz", href: "#camping", children: [
+      { label: "Natur & Lage", href: "#camping" },
+      { label: "Galerie", href: "#galerie" },
+    ]},
     { label: "Wohnen", href: "#mobilheime" },
     { label: "Aktiv", href: "#aktivitaeten" },
-    {
-      label: "Preise & Lage",
-      href: "#booking",
-      children: [
-        { label: "Preise", href: "#booking" },
-        { label: "Anreise", href: "#anreise" },
-      ],
-    },
+    { label: "Preise & Lage", href: "#booking", children: [
+      { label: "Anfrage", href: "#booking" },
+      { label: "Anreise", href: "#anreise" },
+    ]},
   ],
 };
 
