@@ -32,7 +32,7 @@ const auwerkCamping: CampsiteConfig = {
     },
     {
       title: "Eingebettet in die Voralpen",
-      text: "Grüne Hügel ringsum: Hainfeld liegt in Österreichs waldreichster Gemeinde, an der Grenze zum Wienerwald.",
+      text: "Grüne Hügel ringsum: Hainfeld liegt im waldreichsten Bezirk Österreichs, an der Grenze zum Wienerwald.",
       image: { src: `${IMG}/gallery-26bab1a520.webp`, alt: "Bewaldete Voralpen rund um Hainfeld" },
     },
     {
@@ -116,7 +116,7 @@ const auwerkCamping: CampsiteConfig = {
         name: "Neues Mobilheim",
         kind: "Erstbezug · ca. 50 m²",
         text: "Generalsaniert und winterfest: Küche, Wohn- und Schlafzimmer, Bad und WC auf rund 50 m² Wohnfläche.",
-        image: { src: `${IMG}/accommodation-1308cb5c31.webp`, alt: "Weiße Einbauküche mit Cerankochfeld, Backofen und Dunstabzug im neuen Mobilheim am Auwerk Camping" },
+        image: { src: `${IMG}/accommodation-2486fe9d72.webp`, alt: "Bad mit Dusche, WC und Waschbecken im neuen Mobilheim am Auwerk Camping" },
         features: ["50 m² Wohnfläche", "Parzelle ca. 220 m²", "winterfest & gedämmt", "Strom, Wasser, Kanal, Kabel-TV"],
       },
       {
