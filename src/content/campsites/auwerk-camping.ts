@@ -113,13 +113,6 @@ const auwerkCamping: CampsiteConfig = {
       "Ob neues Mobilheim oder das gemütliche Holzhäuschen — bei uns findest du dein eigenes, winterfestes Zuhause im Grünen.",
     items: [
       {
-        name: "Neues Mobilheim",
-        kind: "Erstbezug · ca. 50 m²",
-        text: "Generalsaniert und winterfest: Küche, Wohn- und Schlafzimmer, Bad und WC auf rund 50 m² Wohnfläche.",
-        image: { src: `${IMG}/accommodation-1308cb5c31.webp`, alt: "Einbauküche mit Ceran-Kochfeld, Backrohr und Dunstabzug im neuen Mobilheim am Auwerk Camping" },
-        features: ["50 m² Wohnfläche", "Parzelle ca. 220 m²", "winterfest & gedämmt", "Strom, Wasser, Kanal, Kabel-TV"],
-      },
-      {
         name: "Holzhäuschen zur Miete",
         kind: "für 1–2 Personen",
         text: "Ein schnuckeliges, winterfestes Holzhaus unter altem Laubbaum — mit kleiner Küche, Bad und Terrasse.",
