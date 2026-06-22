@@ -38,7 +38,7 @@ const auwerkCamping: CampsiteConfig = {
     {
       title: "Ein Familienbetrieb",
       text: "Familiär geführt — vom ersten Hallo am Tor bis zum Rundum-Service für dein Mobilheim.",
-      image: { src: `${IMG}/gallery-969a35ee73.webp`, alt: "Eingang zum Auwerk Camping Gölsen" },
+      image: { src: `${IMG}/gallery-dda05aeaeb.webp`, alt: "Gepflegter Garten am Auwerk Camping mit Blumenrondell und altem Baumbestand" },
     },
   ],
 
@@ -77,7 +77,7 @@ const auwerkCamping: CampsiteConfig = {
       {
         title: "Sonnenplatz an der Gölsen",
         text: "Setz dich ans naturbelassene Flussufer und genieße erholsame Sonnenstunden im Schatten alter Bäume.",
-        image: { src: `${IMG}/accommodation-369d6c3397.webp`, alt: "Sitzplatz am Ufer der Gölsen" },
+        image: { src: `${IMG}/accommodation-b6ec349bae.webp`, alt: "Grünes Ufer der Gölsen im Sonnenlicht mit altem Baumbestand" },
       },
       {
         title: "Der malerische Teich",
@@ -130,7 +130,7 @@ const auwerkCamping: CampsiteConfig = {
       {
         title: "Im Fluss erfrischen",
         text: "An warmen Tagen lädt die seichte Gölsen zum Abkühlen zwischen Steinen und Kiesbänken ein.",
-        image: { src: `${IMG}/accommodation-a487a518ed.webp`, alt: "Erfrischung in der seichten Gölsen" },
+        image: { src: `${IMG}/gallery-93759da2e6.webp`, alt: "Kinder spielen auf Steinen in der seichten Gölsen" },
       },
       {
         title: "Rad- & Wanderwege",
